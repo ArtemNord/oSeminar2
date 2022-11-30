@@ -34,4 +34,13 @@ public abstract class User {
     public void setPatronymic(String patronymic) {
         this.patronymic = patronymic;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", patronymic='" + patronymic + '\'' +
+                '}';
+    }
 }
