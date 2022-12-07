@@ -11,6 +11,7 @@ public class StudyGroup {
         this.students = students;
     }
 
+
     public Teacher getTeacher() {
         return teacher;
     }

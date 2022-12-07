@@ -8,6 +8,7 @@ public class Main {
         controller.createUser("Name",
                 "LastName",
                 "Patronymic");
+        controller.showSortStudyGroup(controller.createStudyGroup());
     }
 
 }
